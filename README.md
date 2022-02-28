@@ -13,4 +13,4 @@
 - source venv/bin/activate - запускаем вертуальное окружение
 - celery -A имя_приложения beat -l info
 
-Инструкция с натрйокой и запускам по шагам: https://stackabuse.com/asynchronous-tasks-in-django-with-redis-and-celery/
+Инструкция с настройкой и запускам по шагам: https://stackabuse.com/asynchronous-tasks-in-django-with-redis-and-celery/
