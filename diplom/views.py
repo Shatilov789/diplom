@@ -18,7 +18,7 @@ from diplom.models import ConfirmEmailToken, Shop, Category, ProductInfo, Produc
     Contact, OrderItem
 from diplom.serializers import UserSerializer, ShopSerializer, CategorySerializer, ProductInfoSerializer, \
     OrderSerializer, ContactSerializer, OrderItemSerializer
-from diplom.signals import new_user_registered, new_order
+from diplom.tasks import new_user_registered, new_order
 
 
 class RegisterAccount(APIView):
